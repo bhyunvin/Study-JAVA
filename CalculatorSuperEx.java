@@ -28,6 +28,9 @@ class SubstractCalc extends Calculator {
 	
 	public SubstractCalc(int left, int right) {
 		super(left, right);
+		//하위클래스의 초기화코드는 super클래스를 호출한뒤에 나타나야함
+		//하위클래스가 인스턴스화된다는것은 -> 상위클래스가 미리 인스턴스화가 되었다는것
+		//상위클래스가 미리 초기화가 되어야만 하위클래스를 초기화할수있다
 	}
 	
 	public void substract() {
