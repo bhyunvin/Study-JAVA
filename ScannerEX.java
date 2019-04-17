@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerEX {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("ÀÔ·ÂÇÒ ¼ıÀÚ = ");
+		System.out.print("1000ì„ ê³±í•  ìˆ«ì = ");
 		int i = sc.nextInt();
 		System.out.println(i * 1000);
 		sc.close();

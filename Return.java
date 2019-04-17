@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Return {
 	 
     public static String[] getMembers() {
-        String[] members = { "ÃÖÁøÇõ", "ÃÖÀ¯ºó", "ÇÑÀÌ¶÷" };
+        String[] members = { "ì² ìˆ˜", "ì˜í¬", "ì¢…í˜„" };
         return members;
     }
  

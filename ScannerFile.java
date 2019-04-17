@@ -15,7 +15,7 @@ public class ScannerFile {
 			sc.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			System.err.println("ÆÄÀÏÀÌ ¾ø½À´Ï´Ù!");
+			System.err.println("íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤!");
 		}
 
 	}

@@ -22,7 +22,7 @@ public class Method2 {
 	}
 
 	public static void main(String[] args) throws IOException {
-		System.out.print("¹è¿­ÀÇ ÃÖ´ë ¼ıÀÚ = ");
+		System.out.print("ë°°ì—´ì˜ ë§ˆì§€ë§‰ ìˆ«ìëŠ” = ");
 Scanner scn = new Scanner(System.in);
 int e = scn.nextInt();
 		numbering(e);
