@@ -11,5 +11,6 @@ public class OverloadingDemo {
         od.A();
         od.A(1);
         od.A("coding everybody");
-    }
+    }//오버로딩 - 메소드의 이름과 리턴값이 같아야하고 매개변수는 달라야한다
+     //같은 이름의 다른 기능을하는 메서드를 여러개 정의할수있다!
 }
