@@ -23,7 +23,10 @@ class SubstractCalc extends Calculator { // 2. 상위클래스인 Calculator 클
         System.out.println("실행 결과는 " +(this.left + this.right)+"입니다.");
     } //상위클래스 Calculator이 갖고있는 sum이라는 메소드를 재정의(Overriding) 하고있다
     //기본값은 상위클래스의 것을, 기능(메소드)는 하위클래스의 것을 사용한다 (상위클래스의 기능은 무시된다)
-     
+    //1. 메소드의 이름이 같아야하며,
+    //메소드의 매개변수가 같아야하고(2. 매개변수의 갯수/ 3. 데이터타입/ 4. 순서),
+    //5.return (여기서는 void) 형태도 같아야한다.
+    //상위클래스의 메서드를 상속받지않고 하위클래스에서 새롭게 변경한다
     public void substract() {
         System.out.println(this.left - this.right);
     }
